@@ -28,3 +28,5 @@ use the editor.
   own key and store it in Secrets.
 - **Secrets.** Lovable manages them. Do not put secret values in the repo.
 <!-- LOVABLE:END -->
+
+- Waste data lives in browser localStorage via `src/lib/waste-store.tsx` context; analysis and chat use the rule-based engine in `src/lib/waste.ts` so demos never depend on an API.
